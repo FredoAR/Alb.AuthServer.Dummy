@@ -1,18 +1,20 @@
 # Introduction 
-Este proyecto se construye como un API REST destinado a ser un Servidor básico de autenticación y autorización implementando autenticación por tokens.
-El desarrollado es guíado por los principios de arquitectura limpia con la intención de practicar los conceptos clave así como la interación con las capas
+Este proyecto se construye como un API REST destinado a ser un Servidor básico de autenticación y autorización dummy, implementando autenticación por tokens.
+El desarrollado es guíado por los principios de arquitectura limpia con la intención de practicar los conceptos clave así como la interacción con las capas
 recomendadas y las que he conocido durante mí experiencia.
 
 ## Ficha técnica del proyecto
 - .NET 6
 - C# v10
 - Arquitectura limpia
+- Result Pattern
 - SqlServer
 - EntityFrameworkCore
+- Microsoft.AspNetCore.Identity
+- JWT
 - Swagger
 - AutoMapper
 - Serilog
-- Microsoft.AspNetCore.Identity
 - Newtonsoft
 - CORS
 
