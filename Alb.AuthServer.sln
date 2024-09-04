@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Alb.AuthServer.API", "Alb.AuthServer\Alb.AuthServer.API.csproj", "{3788B02A-CF5F-4210-9C6F-038BD8354D5D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Alb.AuthServer.Domain", "Alb.AuthServer.Domain\Alb.AuthServer.Domain.csproj", "{4CB98D6E-ECED-43B1-BCDD-96F9247CC377}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Alb.AuthServer.Domain.Shared", "Alb.AuthServer.Domain.Shared\Alb.AuthServer.Domain.Shared.csproj", "{9FA3D0B7-A781-4171-9CE9-91CB2D450B2C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Alb.AuthServer.Infrastructure", "Alb.AuthServer.Infrastructure\Alb.AuthServer.Infrastructure.csproj", "{68C6074D-C055-4A17-9EE9-737FEF8CA362}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Alb.AuthServer.Application.Contracts", "Alb.AuthServer.Application.Contracts\Alb.AuthServer.Application.Contracts.csproj", "{170BEE50-F0AB-49F8-9C69-96C0D2152A73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alb.AuthServer.Application", "Alb.AuthServer.Application\Alb.AuthServer.Application.csproj", "{FDB55C18-8734-4A8C-A489-2C9F786E5FF1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3788B02A-CF5F-4210-9C6F-038BD8354D5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3788B02A-CF5F-4210-9C6F-038BD8354D5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3788B02A-CF5F-4210-9C6F-038BD8354D5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3788B02A-CF5F-4210-9C6F-038BD8354D5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CB98D6E-ECED-43B1-BCDD-96F9247CC377}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CB98D6E-ECED-43B1-BCDD-96F9247CC377}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CB98D6E-ECED-43B1-BCDD-96F9247CC377}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CB98D6E-ECED-43B1-BCDD-96F9247CC377}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FA3D0B7-A781-4171-9CE9-91CB2D450B2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FA3D0B7-A781-4171-9CE9-91CB2D450B2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FA3D0B7-A781-4171-9CE9-91CB2D450B2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FA3D0B7-A781-4171-9CE9-91CB2D450B2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68C6074D-C055-4A17-9EE9-737FEF8CA362}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68C6074D-C055-4A17-9EE9-737FEF8CA362}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68C6074D-C055-4A17-9EE9-737FEF8CA362}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68C6074D-C055-4A17-9EE9-737FEF8CA362}.Release|Any CPU.Build.0 = Release|Any CPU
+		{170BEE50-F0AB-49F8-9C69-96C0D2152A73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{170BEE50-F0AB-49F8-9C69-96C0D2152A73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{170BEE50-F0AB-49F8-9C69-96C0D2152A73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{170BEE50-F0AB-49F8-9C69-96C0D2152A73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDB55C18-8734-4A8C-A489-2C9F786E5FF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDB55C18-8734-4A8C-A489-2C9F786E5FF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDB55C18-8734-4A8C-A489-2C9F786E5FF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDB55C18-8734-4A8C-A489-2C9F786E5FF1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DC9C0232-9B26-4275-AFE3-5BF4CEA13B93}
+	EndGlobalSection
+EndGlobal
