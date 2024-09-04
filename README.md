@@ -1,6 +1,7 @@
 # Introduction 
-Este proyecto se construye como un API REST destinado a ser un Servidor de autenticación y autorización
-para las aplicaciones dentro del ecosistema bytersoft.com
+Este proyecto se construye como un API REST destinado a ser un Servidor básico de autenticación y autorización implementando autenticación por tokens.
+El desarrollado es guíado por los principios de arquitectura limpia con la intención de practicar los conceptos clave así como la interación con las capas
+recomendadas y las que he conocido durante mí experiencia.
 
 ## Ficha técnica del proyecto
 - .NET 6
@@ -13,6 +14,10 @@ para las aplicaciones dentro del ecosistema bytersoft.com
 - Serilog
 - Microsoft.AspNetCore.Identity
 - Newtonsoft
+- CORS
+
+El proyecto requiere ajustar las cadenas de conexión a Base de Datos para ejecutar la migración de acuerdo al ambiente así como los datos de JWT.
+El DbContext utiliza la estructura base de Identity más un par de propiedades que se agregan para extender la entidad. 
 
 # Getting Started
 TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
